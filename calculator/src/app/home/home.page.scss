@@ -1,3 +1,41 @@
 ion-content{
-    --background: linear-gradient(to right # );
+    --background: linear-gradient(to right, #2c0146, #3a0d5a);
+}
+
+ion-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 12vh;
+
+    color: #fff;
+    // border: 1px solid green;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 1rem;
+}
+
+.header ion-button{
+    --color: #1b0f22;
+}
+
+.equation{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+
+    // border: 1px solid red;
+}
+
+.calculator-pad{
+    background: #570c8a;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    height: 60vh;
 }
