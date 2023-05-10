@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
 ion-content{
     --background: linear-gradient(to right, #2c0146, #3a0d5a);
 }
@@ -7,7 +9,7 @@ ion-col {
     align-items: center;
     justify-content: center;
 
-    height: 12vh;
+    height: 11vh;
 
     color: #fff;
     // border: 1px solid green;
@@ -21,8 +23,8 @@ ion-col {
     margin-top: 1rem;
 }
 
-.header ion-button{
-    --color: #1b0f22;
+.header-buttons{
+    --color: #170e1d;
 }
 
 .equation{
@@ -30,6 +32,10 @@ ion-col {
     justify-content: flex-end;
     margin-right: 2rem;
 
+    margin-top: 20vh;
+
+    font-size: 4rem;
+    font-weight: bold;
     // border: 1px solid red;
 }
 
@@ -37,5 +43,24 @@ ion-col {
     background: #570c8a;
     border-top-left-radius: 3rem;
     border-top-right-radius: 3rem;
-    height: 60vh;
+    height: 55vh;
+}
+
+.pad-letter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+     border: 1px solid red;
+}
+
+.pad-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid red;
 }

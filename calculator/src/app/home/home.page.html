@@ -1,11 +1,11 @@
 <ion-content [fullscreen]="true" mode="ios">
   <div class="header">
-    <ion-button fill="clear"><ion-icon name="keypad"></ion-icon></ion-button>
-    <ion-button fill="clear"><ion-icon name="grid"></ion-icon></ion-button>
-    <ion-button fill="clear"><ion-icon name="time"></ion-icon></ion-button>
+    <ion-button fill="clear" class="header-buttons"><ion-icon name="keypad"></ion-icon></ion-button>
+    <ion-button fill="clear" class="header-buttons"><ion-icon name="grid"></ion-icon></ion-button>
+    <ion-button fill="clear" class="header-buttons"><ion-icon name="time"></ion-icon></ion-button>
   </div>
 
-  <h1 class="equation">1111</h1>
+  <h1 class="equation">0</h1>
 
 </ion-content>
 
@@ -13,10 +13,10 @@
 
   <ion-grid class="calculator-pad">
     <ion-row>
-      <ion-col>C</ion-col>
-      <ion-col><ion-icon name="backspace"></ion-icon></ion-col>
-      <ion-col>%</ion-col>
-      <ion-col>÷</ion-col>
+      <ion-col><ion-label class="pad-letter">C</ion-label></ion-col>
+      <ion-col><ion-icon name="backspace" class="pad-icon"></ion-icon></ion-col>
+      <ion-col><ion-label>%</ion-label></ion-col>
+      <ion-col><ion-label>÷</ion-label></ion-col>
     </ion-row>
 
     <ion-row>
